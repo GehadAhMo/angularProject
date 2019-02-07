@@ -1,0 +1,10 @@
+<div style="margin-left:5%; margin-right:5%; padding-left:5px; background:#DDD; width: 500px">
+  <table class="table">
+    <tr *ngFor="let role of roles">
+      <td>{{role.id}}</td>
+      <td><a routerLink="/single-role/{{role.id}}">{{role.role}}</a></td>
+      <!--<td><button>Delete</button></td>-->
+    </tr>
+  </table>
+  <!--<router-outlet></router-outlet>-->
+</div>
